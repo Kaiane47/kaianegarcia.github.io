@@ -1,0 +1,181 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#logodiv {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding: 0;
+}
+
+#cabecario {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 50px;
+    position: fixed;
+    top: 20px;
+    margin-left: 5%;
+    transform: translateX(-50%);
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0;
+    background-color yellow
+}
+
+li {
+    float: left;
+    padding: 20px 10px;
+}
+
+li:hover {
+    background-color: rgb(211, 204, 0);
+}
+
+#imagem_fundo1 {
+    background: url("capa de fundo.png");
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+
+#titulo1 {
+    color: white;
+    font-size: 70px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+#subtitulo1 {
+    color: white;
+    padding: 0 20%;
+    margin-bottom: 20px;
+}
+
+#acao1 {
+    color: rgb(216, 195, 0);
+    border: 2px solid yellow;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#imagem_fundo {
+    background: url("Capa_Volei");
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#titulo {
+    color: white;
+    padding-top: 10%;
+    font-size: 70px;
+    line-height: 1;
+    text-shadow: 1px 1px 2px red;
+}
+
+#subtitulo {
+    color: rgb(200, 226, 0);
+    padding: 0 20%;
+}
+
+#acao {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#selecao {
+    background-color: rgb(7, 65, 174);
+    padding: 20px;
+    overflow: auto;
+}
+
+#caixa {
+    width: 60%;
+    height: 50%;
+    border: 3px solid transparent;
+    text-align: center;
+    line-height: 89.5px;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 60px;
+    text-decoration: none;
+}
+
+.icone {
+    width: 90px;
+}
+
+section {
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+
+.destaque {
+    background-color:rgb(202, 198, 0);
+}
+
+.destaque2 {
+   
+}
+
+.imgeco {
+    width: 90%;
+    height: auto;
+}
+
+.coluna {
+    float: left;
+    padding: 3% 5%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.dois {
+    width: 40%;
+}
+
+.quatro {
+    width: 30%;
+}
+
+.tres {
+    width: 30%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+footer {
+    background-color:#003366; 
+    color: white;           
+    padding: 20px;
+    clear: both;
+    background-color: blue
+}
